@@ -2,6 +2,7 @@
 
 window.onscroll = function() {myFunction()};
 window.onload = function() {myFunction2()};
+window.onload = function() {myFunction3()}
 
 
 var navbar = document.getElementById("navbar");
@@ -62,17 +63,16 @@ function closeNav() {
 }
 
 
-
-/*/var i = 0;
 /*text k novinkam*/
-/*var txt = 'Probíhající text – K AKTUALITÁM NA MUZEU -  např. k úpravě otevírací doby atd. /NOVNKY';
+var i = 0;
+var txt = 'Probíhající text – K AKTUALITÁM NA MUZEU -  např. k úpravě otevírací doby atd. /NOVNKY';
 var speed = 50;
 
-function myFunction() {
+function myFunction3() {
   if (i < txt.length) {
     document.getElementById("textNovinky").innerHTML += txt.charAt(i);
     i++;
-    setTimeout(myFunction, speed);
+    setTimeout(myFunction3, speed);
   }
 }
 /**/
