@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css_01.css">
+<link rel="stylesheet" href="css_02.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muzeum Policie CR</title>
+<style>
+
+</style>
+</head>
+<body>
+
+
+<!--horejsek-->
+<div id ="top" ">
+<div class="flexBoxTop">
+<div><p class="nadpis0">Socnet ikony</p></div>
+<div><h1 class="nadpis1">Muzeum policie ČR</h1></div>
+
+<div><form></form><input id="hledej" name ="search">
+<input type="submit" value="hledej"></div>
+</div>
+</div>
+<!--KonecHorejsek
+
+sticky menu-->
+<div id="navbar">
+ <!-- <a class="active" href="javascript:void(0)">Vstupte</a>-->
+  <a class="active" href="javascript:void(0)">Otevírací doba</a>
+  <a href="javascript:void(0)">Vstupné</a>
+  <a href="javascript:void(0)">Kontakty</a>
+  <a href="#">Fotogalerie</a>
+  <a><span onclick="openNav01()">&#9776; Menu</span></a>
+</div>
+<main>
+
+  <!--Novinky-->
+<div class="center2">
+<p>'Probíhající text – K AKTUALITÁM NA MUZEU -  např. k úpravě otevírací doby atd. /AKTUALITY';</p>
+<p>'př:';</p>
+<p>'Muzeum je uzavřeno kvůli zhoršujicí se epidemicé situaci';</p>
+<p>'...';</p>
+<p class="center_txt" id="textNovinky"></p>
+</div>
+
+
+
+<div class="center2">
+
+</div>
+
+<!--slider-->
+<div class="content">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="HlavniSrana.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="1.png" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="2.png" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+  <!--Side menu-->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size:69px">&times;</a>
+  <a href="#">&#9758; Úvodní informace k Muzeu</a>
+  <a href="#">&#9758; Program &#9866; Kalendář akcí</a>
+  <a href="#">&#9758; Výstavy krátkodobé</a>
+  <a href="#">&#9758; Stálé expozice</a>
+  <a href="#">&#9758; Sbírky</a>
+  <a href="#">&#9758; Předmět &#9866; exponáty měsíce</a>
+  <a href="#">&#9758; Dopravní hřiště</a>
+  <a href="#">&#9758; Historií k osvětě</a>
+  <a href="#">&#9758; Publikační činnost</a>
+  <a href="#">&#9758; Odborné články </a>
+  <a href="#">&#9758; Historické dokumenty</a>
+  <a href="#">&#9758; Badatelna</a>
+  <a href="#">&#9758; Výroční zprávy</a>
+  <a href="#">&#9758; Významné osobnosti</a>
+  <a href="#">&#9758; Slavín</a>
+  <a href="#">&#9758; Spřátelené subjekty</a>
+  <a href="#">&#9758; Vyhlášená nabídková řízení</a>
+</div>
+
+  <!--Upozornění-->
+<div id="Upozornění" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNavU()" style="font-size:69px">&times;</a>
+		<a>Kvůli CoviD-19 je muzeum dočasně uzavřeno</a>
+		<a>Omlouváme se za komplikace</a>
+</div>
+
+</main>
+
+<div class="center2	">
+<p>otevíraci doba, místo atd...</p>
+<p>otevíraci doba, místo atd...</p>
+<p>otevíraci doba, místo atd...</p>
+</div>
+
+<div class="centerFooter">
+<p>@Muzeum PČR všechna práva vyhrazena</p>
+<p>odkazy</p>
+<p>ikony...</p>
+</div>
+
+
+<script></script>
+<script src="script.js" type="text/javascript"></script>
+
+
+</body>
+</html>
