@@ -1,18 +1,25 @@
 /*script na sticky menu*/
 
 window.onscroll = function() {myFunction()};
-window.onload = function() {myFunction2()};
-window.onload = function() {myFunction3()}
+window.onload = function() {myFunction2(),myFunction4(),myFunction3()};	
 
+/*nahoruu*/
+function myFunction4() {
+	tlacitko01.style.display="none";	
+}
 
 var navbar = document.getElementById("navbar");
+var tlacitko01 = document.getElementById("nahoruu");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    navbar.classList.add("sticky");
+	tlacitko01.style.display="block";
+	
   } else {
     navbar.classList.remove("sticky");
+	tlacitko01.style.display="none";
   }
 }
 

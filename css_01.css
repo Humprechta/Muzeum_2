@@ -1,8 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /*sticky menu */
 body {
   margin: 0;
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Garamond, serif;*/  font-family: 'Brush Script MT', cursive;
 }
 
 .header {
@@ -149,7 +153,7 @@ body {
   .prev, .next,.text {font-size: 11px}
 }
 
-/*side menu*/
+/*side menu*/ /*-----------------------------------*/
 
 .sidenav {
   height: 100%;
@@ -190,7 +194,8 @@ body {
 }
 
 #upo:hover{
-	color: red;
+	color: red;/*krizek cerveny*/
+	font-size:69px;
 }
 
 
@@ -255,4 +260,16 @@ input[type=submit] {
 }
 input[type=submit]:hover {
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*nahoruu odkazem*/
+#nahoruu {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+}
+#nahoruu a {
+	font-size: 33px;
+  text-decoration: none;
+
 }
