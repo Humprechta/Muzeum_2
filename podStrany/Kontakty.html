@@ -17,7 +17,7 @@
 </div>
 <div><h1 class="nadpis1">Muzeum policie ČR</h1></div>
 
-<div><form></form><input placeholder="Search.." type="text" id="hledej" name ="search">
+<div><form></form><input placeholder="&#128270 Hledej... " type="text" id="hledej" name ="search">
 <input type="submit" value="hledej"></div>
 </div>
 </div>
@@ -28,7 +28,6 @@
  <!-- <a class="active" href="javascript:void(0)">Vstupte</a>-->
   <a class="active" href="../indedx.html">&#10174;Domů</a>
   <a href="#cena">&#128179;Vstupné</a>
-  <a href="javascript:void(0)">&#9742; Kontakty</a>
   <a href="#">&#128247;Fotogalerie</a>
   <a><span onclick="openNav01()">&#9776; Menu</span></a>
 </div>
@@ -97,9 +96,9 @@
 <p>+420 974 824 831, +420 724 194 206</p>
 <a href="mailto:vlcek@muzeumpolicie.cz">vlcek@muzeumpolicie.cz</a>
 </div>
+</div>
+</div>
 
-</div>
-</div>
 <hr>
 
 <!--Sekretariat-->
@@ -111,8 +110,53 @@
   <p>+420 974 824 839, +420 224 923 619</p>
   <a href="mailto:sekretariat@muzeumpolicie.cz">sekretariat@muzeumpolicie.cz</a>
 </div>
-<hr>
 
+<hr>
+<!--Oddělení správy sbírek 1-->
+<div class="centerCenik" >
+
+<div class="flexBoxTop" id="vedeni">
+
+<div id = "oss01">
+<h3>Mgr. Zdeněk Kopecký</h3>
+<p>Vedoucí správy sbírek</p>
+<p>+420 974 824 845</p>
+<a href="mailto:kopecky@muzeumpolicie.cz">kopecky@muzeumpolicie.cz</a>
+</div>
+
+<div id = "oss02" >
+<h3>Mgr. Miroslav Kábrt</h3>
+<p>dokumentátor</p>
+<p>+420 974 824 842</p>
+<a href="mailto:kabrt@muzeumpolicie.cz">kabrt@muzeumpolicie.cz</a>
+</div>
+</div>
+</div>
+<hr>
+<hr>
+<!--Oddělení správy sbírek 2-->
+<div class="centerCenik" >
+<div class="flexBoxTop" id="vedeni">
+
+<div id = "oss03">
+<h3>František Soukup</h3>
+<p>Kurátor podsbírky</p>
+<p>„Vyznamenání, stejnokroje</p>
+<p>, symboly, falza a modely“</p>
+<p>+420 974 824 844</p>
+<a href="mailto:soukup@muzeumpolicie.cz">soukup@muzeumpolicie.cz</a>
+</div>
+
+<div id = "oss04" >
+<h3>JUDr. Michal Dlouhý, Ph.D.</h3>
+<p>dokumentátor</p>
+<p>-</p>
+<a href="mailto:dlouhy@muzeumpolicie.cz">dlouhy@muzeumpolicie.czz</a>
+</div>
+</div>
+</div>
+
+<hr>
 
 <!--Adresa a ceník-->
 <div class="centerCenik">
@@ -133,6 +177,10 @@
 </div>
 </div>
 
+
+
+
+
 <!--google map-->
 <div style="width: 100%"><iframe width="100%" margin="auto" height="400" frameborder="0" scrolling="no" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Ke%20Karlovu%201,%20120%2000%20Praha%202Ke%20Karlovu%201,%20120%2000%20Praha%202+(Mapa)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">car gps</a></iframe></div>
 
@@ -148,28 +196,6 @@
 
 
 <script>
-window.onscroll = function() {myFunction()};
-window.onload = function() {myFunction2()};	
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
-function myFunction2(selectTag) {
-  var listValue = selectTag.options[selectTag.selectedIndex].text;
-  document.getElementById("kontakt01").style.fontSize = listValue;
-  document.getElementById("otDoba").style.fontSize = listValue;
-  document.getElementById("vedeni").style.fontSize = listValue;
-  document.getElementById("vedeniNad").style.fontSize = listValue;
-  document.getElementById("sec").style.fontSize = listValue;
-}
 
 </script>
 
